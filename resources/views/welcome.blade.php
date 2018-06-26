@@ -18,8 +18,8 @@
     <hr>
     <br>
     
-    <p class="text-center" style="font-size: 20px; color: #FAFAFA">
-      this is some text 
+    <p class="text-center" style="font-size: 40px; color: #FAFAFA">
+      <marquee>Find and Book Doctor For Appointment right now</marquee>
     </p>
 </div>
 
