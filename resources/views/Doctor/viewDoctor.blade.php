@@ -27,7 +27,7 @@
         <div class="row">
             <div class="col-sm-3" align="center">
                 <img src="{{ asset($Personal->img) }}" class="img-thumbnail" alt="Profile Pic" width="200" height="200">
-                <p class="cls_sort_msg"> {{$Personal->sort_msg}}</p>
+                <p class="cls_sort_msg">Profile Picture</p>
                 @if(Auth::guard('web')->check())
                     <form method="post" action="{{ route('DeleteDoctor') }}">
                         <input type="hidden" name="_token" value="{{csrf_token()}}">

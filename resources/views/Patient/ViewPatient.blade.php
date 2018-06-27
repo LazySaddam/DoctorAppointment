@@ -10,7 +10,11 @@
     <link href="{{ asset('css/view_patient.css') }}" rel="stylesheet">
     {{-- <script src="{{ asset('js/view_patient.js') }}"></script> --}}
 @endsection
-
+<style type="text/css">
+    body{
+      background: url("picture/111.jpg") fixed center;
+    }
+</style>
 
 @section('ContentOfBody')
     {{-- Main Profile View --}}
@@ -27,8 +31,8 @@
         <div class="col-sm-2"></div>
         <div class="col-sm-3" align="center">
             <img src="{{ asset($Personal->img) }}" class="img-thumbnail" alt="Profile Pic" width="200" height="200">
-            <p class="cls_phn_num"><span class="glyphicon glyphicon-phone-alt"
-                                         style="color: #357ed3;"></span>{{$Personal->phone}}</p>
+            <p class="cls_phn_num"><span
+                                         style="color: #357ed3;"></span>Profile Picture</p>
         </div>
         <div class="col-sm-6 ">
 
